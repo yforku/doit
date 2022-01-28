@@ -1,0 +1,9 @@
+# REV00 Fri 20 Aug 2021 13:12:50 WIB
+# START Mon 15 Feb 2021 11:25:07 PM WIB
+#
+# FILE: /etc/apt/sources.list
+
+deb http://deb.debian.org/debian/               bullseye          main contrib non-free
+deb http://deb.debian.org/debian/               bullseye-updates  main contrib non-free
+deb http://security.debian.org/debian-security/ bullseye-security main contrib non-free
+

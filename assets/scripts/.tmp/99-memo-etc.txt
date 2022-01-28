@@ -1,0 +1,65 @@
+cat "$0"; exit 1
+Sat Aug 29 12:52:52 WIB 2020
+============================
+
+(SPAN)
+======
+
+<span style="color:red; font-weight:bold; font-size:larger;">
+RED, BOLD, LARGER
+</span>
+
+
+(JEKYLL)
+========
+
+bundle install
+
+bundle clean --force
+
+bundle exec jekyll serve
+
+jekyll serve
+
+===============================
+
+====
+AOB:
+====
+
+UBUNTU:
+
+dpkg --configure -a
+
+apt-get -f install
+
+apt-get install --reinstall ubuntu-server
+
+
+===============================
+
+If gem warnings appears, just delete that gem, and bundle install again!
+
+===============================
+
+GitHub Theme Problem
+
+Reduce _config.yml to theme only. Eg.:
+##########################
+theme: jekyll-theme-hacker
+##########################
+Reduce index.html to:
+###############
+---
+layout: default
+---
+<body>
+HELLO
+</body>
+###############
+
+============================
+Sun Jun 16 15:41:41 WIB 2019
+Tue Jul  2 12:47:49 WIB 2019
+Tue Feb 25 18:10:38 WIB 2020
+Thu Apr  2 09:54:46 WIB 2020

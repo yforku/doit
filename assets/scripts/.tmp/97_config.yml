@@ -1,0 +1,14 @@
+# Tue Jul  2 12:46:42 WIB 2019
+
+title: (004) Hello Jekyll
+description: WebWeb12 with jekyll-theme-hacker
+show_downloads: true
+google_analytics:
+
+theme: jekyll-theme-hacker
+# theme: jekyll-theme-midnight
+
+# Fixing the "No GitHub API authentication could be found" ??
+# github: [metadata]
+
+# Tue Jul  2 12:46:42 WIB 2019

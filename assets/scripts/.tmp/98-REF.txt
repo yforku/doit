@@ -1,0 +1,69 @@
+cat "$0"; exit 1
+Fri Jul  5 19:13:13 WIB 2019
+============================
+
+Ref:
+====
+(01) https://computingforgeeks.com/how-to-install-jekyll-on-ubuntu-18-04/
+(02) https://makandracards.com/makandra/5111-how-to-install-a-specific-version-of-rubygems-and-how-to-downgrade
+(03) https://help.github.com/en/articles/setting-up-your-github-pages-site-locally-with-jekyll
+(04) https://bundler.io/
+(05) https://mmistakes.github.io/minimal-mistakes/docs/quick-start-guide/
+
+Jekyll
+=======
+(01) https://learn-the-web.algonquindesign.ca/topics/jekyll-cheat-sheet/
+(02) https://deanattali.com/beautiful-jekyll/
+
+YouTube:
+========
+(01) Ruby https://www.youtube.com/playlist?list=PLLAZ4kZ9dFpO90iMas70Tt4_wYjhLGkya
+(02) Jekyll https://www.youtube.com/watch?v=T1itpPvFWHI&list=PLLAZ4kZ9dFpOPV5C5Ay0pHaa0RJFhcmcB
+(03) Putting Pages Inside Folders https://youtu.be/U9wq_94mY6c
+
+Ruby:
+=====
+(01) https://www.quora.com/Does-Ruby-programming-language-have-a-strong-future
+(02) https://www.quora.com/Is-Ruby-dying/answer/Fabio-Akita
+(03) https://www.quora.com/What-happened-to-the-Ruby-community-Where-did-everybody-go/answer/Fabio-Akita
+(04) https://www.quora.com/What-is-the-point-of-Ruby-on-Rails/answer/Fabio-Akita
+(05) https://www.quora.com/Should-I-learn-Node-js-or-Ruby-on-Rails/answer/Fabio-Akita
+(06) https://expertise.jetruby.com/is-ruby-on-rails-dead-2018-edition-407a618dab3a
+(07) https://www.forbes.com/sites/quora/2018/04/03/is-ruby-a-dying-language/
+(08) https://www.netguru.co/blog/pros-cons-ruby-on-rails
+(09) https://www.netguru.co/blog/node-js-ruby-on-rails-which-environment-to-choose-next-project
+(10) https://www.digitalocean.com/community/tutorials/how-to-install-ruby-on-rails-with-rbenv-on-ubuntu-18-04
+
+Themes
+======
+(01) https://bootswatch.com/
+(02) https://themeforest.net/
+(03) https://wrapbootstrap.com/
+(04) https://rubygems.org/search?query=jekyll-theme
+
+Notes
+=====
+(01) http://bit.ly/awesomejekyll
+
+QnA
+===
+(01) https://github.community/t5/GitHub-Pages/Page-not-showing-the-theme/td-p/5545
+
+GitHub Pages
+============
+(01) https://ehmatthes.github.io/GitHub-Pages-Non-Rubyists/
+(02) https://github.com/COMBINE-lab/COMBINE-lab.github.io/
+
+============================
+Tue Nov 27 18:49:08 WIB 2018
+Tue Mar 12 00:44:48 WIB 2019
+Sun Jun  2 12:16:19 WIB 2019
+Tue Jun 11 17:23:31 WIB 2019
+Sun Jun 16 15:41:41 WIB 2019
+Tue Jun 18 20:48:59 WIB 2019
+Sun Jun 30 16:24:01 WIB 2019
+Mon Jul  1 15:56:17 WIB 2019
+Tue Jul  2 12:47:21 WIB 2019
+Wed Jul  3 18:42:33 WIB 2019
+============================
+
