@@ -25,9 +25,9 @@ This site was developed on [GitHub](https://github.com/)
 and is deployed on [GitHub Page](https://pages.github.com/).
 Unfortunately, it is <b>NOT</b> "mobile-friendly" (yet).
 If you like it, you can do whatever you want: clone it, or fork it, or copy it, or even ignore it!
-The source code is available at [GitHub.com](https://github.com/ThisIsHowMeDoIt/doit/),
+The source code is available at [GitHub.com](https://github.com/os2xx/doit/)
 or it can be downloaded 
-[here](https://github.com/ThisIsHowMeDoIt/doit/archive/master.zip).
+[here](https://github.com/os2xx/doit/archive/master.zip).
 For more details, see:
 * [GitHub Page with no Jekyll Theme](001.md)
 * [Installing Jekyll on a VirtualBox](005.md)
