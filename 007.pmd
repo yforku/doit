@@ -3,11 +3,47 @@ title:  "How to Compile a Linux Kernel"
 ---
 
 <hr>
-{% include inc005.html %}
+{% include inc006.html %}
 <hr>
 
-## TBA
+## Debian Packages
+
+See <https://osp4diss.vlsm.org/osp-103.html> for more details.
+
+## Download Latest STABLE Kernel
+
+Fetch the latest STABLE kernel from <https://kernel.org/>.
+E.g. version 5.16.3
+
+```
+### Latest stable kernel
+wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.3.tar.xz
+
+```
+
+<br>
+Fetch the PGP signature and locate the PGP keys.
+
+```
+# PGP
+wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.3.tar.sign
+# Locate Keys
+gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
+
+```
+
+<br>
+Uncompress the file and verify
+
+```
+# Uncompress
+unxz linux-5.16.3.tar.xz
+# Verify
+gpg --verify linux-5.16.3.tar.sign linux-5.16.3.tar
+
+```
+
 
 <br> 
-{% include inc005.html %}
+{% include inc006.html %}
 <br> 

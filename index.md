@@ -29,9 +29,8 @@ The source code is available at [GitHub.com](https://github.com/os2xx/doit/)
 or it can be downloaded 
 [here](https://github.com/os2xx/doit/archive/master.zip).
 For more details, see:
-* [GitHub Page with no Jekyll Theme](001.md)
-* [Installing Jekyll on a VirtualBox](005.md)
-* [GitHub Page Template](https://template.vlsm.org/)
-
+<br>
+{% include inc006.html %}
+<br>
 Qapla,<br>{{ site.author }}<br>
 
