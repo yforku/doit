@@ -1,5 +1,4 @@
 ---
-layout: "layout"
 title:  "A GitHub Page with no Jekyll Theme"
 ---
 
@@ -38,11 +37,11 @@ a [GitHub Page](https://pages.github.com/).
 ```
 
 <br>
-### _layouts/layout.html
+### _layouts/default.html
 
 ```
 {% raw %}
-(> _layouts/layout.html <)
+(> _layouts/default.html <)
 {% endraw %}
 ```
 

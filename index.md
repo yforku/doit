@@ -1,5 +1,4 @@
 ---
-layout: "layout"
 ---
 
 **"[This Is](https://youtu.be/jEoM3qan9Gs)"** a collection of
