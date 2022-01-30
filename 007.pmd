@@ -63,6 +63,70 @@ make clean
 
 ```
 
+<br>
+Creating a SIMPLE SMALL .config file
+* If copying a "wrong" .config file, you might create a huge kernel with huge modules.
+
+```
+make x86_64_defconfig
+
+```
+
+<br>
+Menuconfig
+
+```
+make menuconfig
+
+```
+
+<br>
+Menuconfig (e.g., for cbkadal)
+
+```
+General setup  --->
+  (-cbkadal-09) Local version - append to kernel release
+  Kernel compression mode (XZ)  --->
+  (cbkadal) Default hostname
+  <*> Kernel .config support
+  [*] Enable access to .config through /proc/config.gz
+  <*> Enable kernel headers through /sys/kernel/kheaders.tar.xz
+Processor type and features  --->
+  [ ] EFI runtime service support 
+Security options  --->
+  [ ] NSA SELinux Support
+  [*] AppArmor support
+  [*]   Enable introspection of sha1 hashes for loaded profiles
+  [*]     Enable policy hash introspection by default
+  First legacy 'major LSM' to be initialized
+    (X) AppArmor
+
+```
+
+<br>
+Compile (make)
+
+```
+time make
+
+```
+
+<br>
+Install (root)
+
+```
+time make modules_install
+time make install
+
+```
+
+<br>
+Known Boot Errors
+
+```
+ata1.00: Read log 0x00 page 0x00 failed, Emask 0x1
+
+```
 
 <br> 
 {% include inc006.html %}
