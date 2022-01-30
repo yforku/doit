@@ -13,11 +13,11 @@ See <https://osp4diss.vlsm.org/osp-103.html> for more details.
 ## Download Latest STABLE Kernel
 
 Fetch the latest STABLE kernel from <https://kernel.org/>.
-E.g. version 5.16.3
+E.g. version 5.16.4
 
 ```
 ### Latest stable kernel
-wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.3.tar.xz
+wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.4.tar.xz
 
 ```
 
@@ -26,7 +26,7 @@ Fetch the PGP signature and locate the PGP keys.
 
 ```
 # PGP
-wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.3.tar.sign
+wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.4.tar.sign
 # Locate Keys
 gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
 
@@ -37,9 +37,29 @@ Uncompress the file and verify
 
 ```
 # Uncompress
-unxz linux-5.16.3.tar.xz
+unxz linux-5.16.4.tar.xz
 # Verify
-gpg --verify linux-5.16.3.tar.sign linux-5.16.3.tar
+gpg --verify linux-5.16.4.tar.sign linux-5.16.4.tar
+
+```
+
+<br>
+Extract TAR file
+
+```
+# tar
+tar xvf linux-5.16.4.tar
+# cd
+cd linux-5.16.4/
+
+```
+
+<br>
+Overkilled/Bad Cleaning Habit
+```
+make distclean
+make mrproper
+make clean
 
 ```
 
