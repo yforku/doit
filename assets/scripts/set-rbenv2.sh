@@ -1,13 +1,14 @@
 #!/bin/bash
+# REV15: Mon 31 Jan 2022 14:50:39 WIB
 # REV14: Mon 26 Jul 2021 15:00:00 WIB
 # REV12: Mon 19 Jul 2021 17:06:42 WIB
 # REV11: Tue 15 Jun 2021 18:28:57 WIB
 # REV10: Wed 17 Feb 2021 15:15:38 WIB
-# START: Tue Jun 18 16:56:27 WIB 2019
+# START: Tue 18 Jun 2019 16:56:27 WIB
 #
 # set-rbenv2.sh installs the bundler.
 #
-# Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2019-2022 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This is a free script. It is distributed in the
 # hope that it will be useful, but WITHOUT ANY WARRANTY;
@@ -16,9 +17,10 @@
 
 # See also set-rbenv1.sh
 # Try until it works.
-RUBY="2.6.8"
-# RUBY="2.7.4"
-# RUBY="3.0.2"
+RUBY="2.6.9"
+# RUBY="2.7.5"
+# RUBY="3.0.3"
+# RUBY="3.1.0"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"

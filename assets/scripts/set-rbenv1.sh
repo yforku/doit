@@ -1,12 +1,13 @@
 #!/bin/bash
+# REV06: Mon 31 Jan 2022 14:49:00 WIB
 # REV05: Mon 26 Jul 2021 15:01:58 WIB
 # REV03: Tue 15 Jun 2021 18:06:40 WIB
 # REV02: Wed 17 Feb 2021 15:15:11 WIB
-# START: Tue Jun 18 16:56:27 WIB 2019
+# START: Tue 18 Jun 2019 16:56:27 WIB
 # 
 # set-rbenv1.sh installs rubby using rbenlv.
 #                       
-# Copyright (C) 2019-2021 Rahmat M. Samik-Ibrahim
+# Copyright (C) 2019-2022 Rahmat M. Samik-Ibrahim
 # http://RahmatM.Samik-Ibrahim.vLSM.org/
 # This is a free script. It is distributed in the
 # hope that it will be useful, but WITHOUT ANY WARRANTY;
@@ -15,9 +16,10 @@
 
 # See also set-rbenv2.sh
 # Try until it works.
-RUBY="2.6.8"
-# RUBY="2.7.4"
-# RUBY="3.0.2"
+RUBY="2.6.9"
+# RUBY="2.7.5"
+# RUBY="3.0.3"
+# RUBY="3.1.0"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
 echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile"
