@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV06: Mon 31 Jan 2022 14:49:00 WIB
+# REV06: Mon 31 Jan 2022 17:00:00 WIB
 # REV05: Mon 26 Jul 2021 15:01:58 WIB
 # REV03: Tue 15 Jun 2021 18:06:40 WIB
 # REV02: Wed 17 Feb 2021 15:15:11 WIB
@@ -15,6 +15,8 @@
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
 # See also set-rbenv2.sh
+# PS: Github-Pages uses Jekyll 3.9, which isn’t compatible with Ruby 3.
+# Downgrading to Ruby 2.7 should avoid the problem (chuckhoupt, 2021).
 # Try until it works.
 RUBY="2.6.9"
 # RUBY="2.7.5"
