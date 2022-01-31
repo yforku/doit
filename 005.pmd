@@ -53,6 +53,7 @@ For the next part, just user privilege is needed.
 
 ```
 (> assets/scripts/sources.list <)
+
 ```
 * You might "copy and paste" that file or fetch it with:
 
