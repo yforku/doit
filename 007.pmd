@@ -13,20 +13,25 @@ See <https://osp4diss.vlsm.org/osp-103.html> for more details.
 ## Download Latest STABLE Kernel
 
 Fetch the latest STABLE kernel from <https://kernel.org/>.
-E.g. version 5.16.4
 
 ```
-### Latest stable kernel
-wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.4.tar.xz
+# START =============================================================
+STABLE=$(wget -O - -o /dev/null https://www.kernel.org/finger_banner | awk '/stable/ {print $NF; exit}')
+MAJOR=$(echo $STABLE | cut -d. -f1)
+URL="https://cdn.kernel.org/pub/linux/kernel/v$MAJOR.x"
+KERNEL="linux-$STABLE.tar.xz"
+TARBALL="linux-$STABLE.tar"
+PGP="linux-$STABLE.tar.sign"
+KURL="$URL/$KERNEL"
+PURL="$URL/$PGP"
 
-```
-
-<br>
-Fetch the PGP signature and locate the PGP keys.
-
-```
-# PGP
-wget -c https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.16.4.tar.sign
+# ===================================================================
+# Wget the latest kernel stable version
+wget -c $KURL
+# ===================================================================
+# Wget the signature
+wget -c $PURL
+# ===================================================================
 # Locate Keys
 gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
 
@@ -36,10 +41,11 @@ gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
 Uncompress the file and verify
 
 ```
+# ===================================================================
 # Uncompress
-unxz linux-5.16.4.tar.xz
+unxz $KERNEL
 # Verify
-gpg --verify linux-5.16.4.tar.sign linux-5.16.4.tar
+gpg --verify $PGP $TARBALL
 
 ```
 
@@ -47,10 +53,10 @@ gpg --verify linux-5.16.4.tar.sign linux-5.16.4.tar
 Extract TAR file
 
 ```
-# tar
-tar xvf linux-5.16.4.tar
-# cd
-cd linux-5.16.4/
+# ===================================================================
+tar xvf $TARBALL
+# ===================================================================
+cd linux-$STABLE
 
 ```
 
@@ -85,7 +91,7 @@ Menuconfig (e.g., for cbkadal)
 
 ```
 General setup  --->
-  (-cbkadal-09) Local version - append to kernel release
+  (-cbkadal-10) Local version - append to kernel release
   Kernel compression mode (XZ)  --->
   (cbkadal) Default hostname
   <*> Kernel .config support
@@ -115,7 +121,9 @@ time make
 Install (root)
 
 ```
+# USER: ROOT ============
 time make modules_install
+
 time make install
 
 ```
