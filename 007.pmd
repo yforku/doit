@@ -6,10 +6,12 @@ title:  "How to compile Linux Kernel on Debian VirtualBox Guest"
 {% include inc006.html %}
 <hr>
 
+<br id="idx01">
 ## Debian Packages
 
 See <https://osp4diss.vlsm.org/osp-103.html> for more details.
 
+<br id="idx02">
 ## Download Latest STABLE Kernel
 
 Fetch the latest STABLE kernel from <https://kernel.org/>.
@@ -37,7 +39,14 @@ gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
 
 ```
 
-<br>
+<br id="idx02a">
+Sign Key (optional)
+```
+gpg --sign-key gregkh@kernel.org
+
+```
+
+<br id="idx03">
 Uncompress the file and verify
 
 ```
@@ -49,7 +58,7 @@ gpg --verify $PGP $TARBALL
 
 ```
 
-<br>
+<br id="idx04">
 Extract TAR file
 
 ```
@@ -60,7 +69,7 @@ cd linux-$STABLE
 
 ```
 
-<br>
+<br id="idx05">
 Overkilled/Bad Cleaning Habit
 ```
 make distclean
@@ -69,7 +78,7 @@ make clean
 
 ```
 
-<br>
+<br id="idx06">
 Creating a SIMPLE SMALL .config file
 * If copying a "wrong" .config file, you might create a huge kernel with huge modules.
 
@@ -78,7 +87,7 @@ make x86_64_defconfig
 
 ```
 
-<br>
+<br id="idx07">
 Menuconfig
 
 ```
@@ -86,7 +95,7 @@ make menuconfig
 
 ```
 
-<br>
+<br id="idx08">
 Menuconfig (e.g., for cbkadal)
 
 ```
@@ -109,7 +118,7 @@ Security options  --->
 
 ```
 
-<br>
+<br id="idx09">
 Compile (make)
 
 ```
@@ -117,7 +126,7 @@ time make
 
 ```
 
-<br>
+<br id="idx10">
 Install (root)
 
 ```
@@ -128,7 +137,7 @@ time make install
 
 ```
 
-<br>
+<br id="idx11">
 Known Boot Errors
 
 ```
@@ -136,6 +145,6 @@ ata1.00: Read log 0x00 page 0x00 failed, Emask 0x1
 
 ```
 
-<br> 
+<br id="idx12">
 {% include inc006.html %}
 <br> 
