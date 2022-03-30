@@ -152,7 +152,7 @@ make modules_install
 
 make install
 
-make headers_install ARCH=x86_64 INSTALL_HDR_PATH=/usr
+make headers_install INSTALL_HDR_PATH=/usr
 
 ```
 
