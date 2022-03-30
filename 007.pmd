@@ -119,26 +119,29 @@ Security options  --->
   [*]     Enable policy hash introspection by default
   First legacy 'major LSM' to be initialized
     (X) AppArmor
+Kernel hacking  --->  
+  Compile-time checks and compiler options  --->
+    [*] Install uapi headers to usr/include
 
 ```
 
 <br id="idx09">
 Compile (make)
 
-* Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
-  * real 8m56.811s
-  * user 14m58.976s
-  * sys  2m21.272s
-
-* Lenovo E135 (AMD E2-2000 APU with Radeon(tm) HD Graphics)
-  * real 131m37,268s
-  * user 231m34,071s
-  * sys  26m15,916s
-
 ```
 time make
 
 ```
+
+* FYI
+  * Intel(R) Core(TM) i5-9400F CPU @ 2.90GHz
+    * real 8m56.811s
+    * user 14m58.976s
+    * sys  2m21.272s
+  * Lenovo E135 (AMD E2-2000 APU with Radeon(tm) HD Graphics)
+    * real 131m37,268s
+    * user 231m34,071s
+    * sys  26m15,916s
 
 <br id="idx10">
 Install (root)
