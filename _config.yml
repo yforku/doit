@@ -1,39 +1,39 @@
-version:     "0035--02-Jun-2022"
-copyright:   "2021-2022"
-title:       "This Is How Me Do It!"
+version:          "0035--02-Jun-2022"
+copyright:        "2021-2022"
+title:            "This Is How Me Do It!"
+author:           "C. BinKadal"
+address:          "Sendirian, Berhad"
 description:
   This Is How Me Do It!
   This Is How Me Do It!
 disclaimer:
   I have spoken.
-keywords:    "jekyll, testing"
+keywords:         "jekyll, testing"
 navbarlinks:
-- navbar:    "Home"
-  link:      "/"
-- navbar:    "GitHub"
-  link:      "https://github.com/os2xx/doit/"
-- navbar:    "Listing"
-  link:      "/004.html"
-- navbar:    "About"
-  link:      "/ABOUT/"
-- navbar:    "GitHub Page"
-  link:      "https://doit.vlsm.org/"
+- navbar:         "Home"
+  link:           "/"
+- navbar:         "GitHub"
+  link:           "https://github.com/os2xx/doit/"
+- navbar:         "Listing"
+  link:           "/004.html"
+- navbar:         "About"
+  link:           "/ABOUT/"
+- navbar:         "GitHub Page"
+  link:           "https://doit.vlsm.org/"
 lang:             "en-US"
-author:           "C. BinKadal"
-address:          "Sendirian, Berhad"
 sitemap:          "true"
 markdown:         "kramdown"
 defaults:
 - scope:
-    path:    ""
+    path:         ""
   values:
-    layout:  "default"
+    layout:       "default"
 github:
 - metadata
 plugins:
 - jekyll-sitemap
 - jekyll-seo-tag
-google_analytics: "UA-89852122-15"
+google_analytics: "G-FTZLNT0SCC"
 urlweb:           "https://doit.vlsm.org/"
 urlcontact:       "TBA"
 urlgithub:        "https://github.com/os2xx/doit/"
