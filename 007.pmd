@@ -71,6 +71,11 @@ cd linux-$STABLE
 
 <br id="idx05">
 Overkilled/Bad Cleaning Habit
+
+Once in a while, some Bozo will ask about why not "make distclean," 
+or "make mrproper," or "make clean." 
+Ok, here there are all, and shutup!
+
 ```
 make distclean
 make mrproper
@@ -81,7 +86,8 @@ make clean
 <br id="idx06">
 Creating a SIMPLE SMALL ".config" file
 * If copying a **wrong** ".config" file, you might create a huge kernel with huge modules.
-* You might want consider to create a ".config" file from scratch with:
+* Consider copying a working ".config" file from the "/boot/" directory.
+* Or, you might want to consider creating a ".config" file from scratch with:
 
 ```
 make x86_64_defconfig
