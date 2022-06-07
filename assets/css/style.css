@@ -28,10 +28,14 @@
 
 .plainclass1 h1 {
   color:            hsl(100, 50%, 50%);
+  font-size:        1.9em;
+  font-weight:      bold;
 }
 
 .plainclass1 h2 {
   color:            hsl(100, 50%, 50%);
+  font-size:        1.4em;
+  font-weight:      bold;
 }
 
 .plainclass1 h3 {

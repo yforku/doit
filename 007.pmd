@@ -2,10 +2,6 @@
 title:  "How to compile Linux Kernel on Debian VirtualBox Guest"
 ---
 
-<hr>
-{% include inc006.html %}
-<hr>
-
 <br id="idx01">
 ## Debian Packages
 
