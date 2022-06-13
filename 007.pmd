@@ -81,9 +81,9 @@ make clean
 
 <br id="idx06">
 Creating a SIMPLE SMALL ".config" file
-* If copying a **wrong** ".config" file, you might create a huge kernel with huge modules.
 * Consider copying a working ".config" file from the "/boot/" directory.
-* Or, you might want to consider creating a ".config" file from scratch with:
+* If copying a **wrong** ".config" file, you might create a massive kernel with huge modules.
+  Or, you might want to consider making a ".config" file from scratch with:
 
 ```
 make x86_64_defconfig
@@ -111,6 +111,9 @@ General setup  --->
   <*> Enable kernel headers through /sys/kernel/kheaders.tar.xz
 Processor type and features  --->
   [ ] EFI runtime service support 
+Device Drivers --->
+  Firmware Drivers --->
+    [*] Disable EFI runtime services support by default 
 File systems  --->
   <*> FUSE (Filesystem in Userspace) support
   <*>   Character device in Userspace support
