@@ -185,9 +185,10 @@ ata1.00: Read log 0x00 page 0x00 failed, Emask 0x1
 <br id="idx12">
 Linux Firmware
 * URL: <https://git.kernel.org/pub/scm/linux/kernel/git/firmware/linux-firmware.git/>
-  * E.g. open TARBALL "linux-firmware-20220509.tar.gz"
-  * Go to folder "linux-firmware-20220509/"
-  * Copy the missing modules into "/lib/firmware/". E.g. (ROOT),
+  * E.g. TARBALL "linux-firmware-20220509.tar.gz"
+    * open the TARBALL
+    * Go to folder "linux-firmware-20220509/"
+    * Copy the missing modules into "/lib/firmware/". E.g. (ROOT),
 
 ```
 cp -r i915/ /lib/firmware/
