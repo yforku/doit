@@ -152,14 +152,15 @@ time make
     * real 131m37,268s
     * user 231m34,071s
     * sys  26m15,916s
-  * (Windows 10) Lenovo Yoga 300 (Intel(R) Celeron(R) CPU N2840 @2.16GHz)
-    * real 5062m4.962s (<span style="color:red;font-weight:bold;">Yes, there is something wrong here!</span>)
-    * user 7597m16.164s
-    * sys  806m13.830s
   * (Linux) Lenovo Yoga 300 (Intel(R) Celeron(R) CPU N2840 @2.16GHz)
     * real  69m6,574s
     * user  115m1,006s
     * sys  19m12,436s
+  * (Windows 10) Lenovo Yoga 300 (Intel(R) Celeron(R) CPU N2840 @2.16GHz)
+    * real    4580m11.804s (<span style="color:red;font-weight:bold;">Yes, there is something wrong here!</span>)
+    * user    6900m36.555s
+    * sys     864m34.820s
+      <br><img src="{{ site.baseurl }}/assets/images/doit-009.jpg" style="width:960px;">
 
 <br id="idx10">
 Install (root)
