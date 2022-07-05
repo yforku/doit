@@ -161,6 +161,10 @@ time make
     * user    6900m36.555s
     * sys     864m34.820s
       <br><img src="{{ site.baseurl }}/assets/images/doit-009.jpg" style="width:960px;">
+      * <span style="color:red;font-weight:bold;">One More Time</span> (after fixing the Windows 10 drivers):
+        * real    77m55.671s
+        * user    134m44.303s
+        * sys     16m59.542s
 
 <br id="idx10">
 Install (root)
