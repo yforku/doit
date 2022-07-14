@@ -1,9 +1,12 @@
 ---
-title:  "XYZZY"
+title:  "Linux/x86 5.18 Kernel Configuration for VirtualBox"
 ---
 
 <br>
-### XYZZY
+### Linux/x86 5.18 Kernel Configuration for VirtualBox
+
+* [Download Config](assets/configs/config-linux-kernel.txt)
+  * See also [How to compile Linux Kernel on Debian VirtualBox Guest](007.md)
 
 ```
 (> assets/configs/config-linux-kernel.txt <)
