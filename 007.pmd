@@ -80,6 +80,10 @@ make clean
 
 ```
 
+<br>
+<hr>
+<br>
+
 <br id="idx06">
 ## OPTION 1: A ".config" file from scratch
 * Consider making a ".config" file from scratch with:
@@ -105,7 +109,9 @@ make oldconfig
 * [Download Config](assets/configs/config-linux-kernel.txt)
   * See also [Linux Kernel Config for VirtualBox](008.md).
 
+<br>
 <hr>
+<br>
 <br id="idx07">
 ## Menuconfig
 
