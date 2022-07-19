@@ -1,9 +1,9 @@
 ---
-title:  "Macbook Air M1 - UTM - Install Debian"
+title:  "Installing Debian On Apple MacBook Air M1 (UTM)"
 ---
 
 <br>
-### Macbook Air M1 - UTM - Install Debian
+### Installing Debian Gnu/Linux On Apple MacBook Air M1 (UTM/qemu)
 
 TBA.
 
@@ -25,6 +25,178 @@ TBA.
 
 <img src="{{ site.baseurl }}/assets/images/debM1-009.jpg" style="width:960px;"><br><br>
 
+
 <img src="{{ site.baseurl }}/assets/images/debM1-010.jpg" style="width:960px;"><br><br>
 
+<img src="{{ site.baseurl }}/assets/images/debM1-011.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-012.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-013.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-014.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-015.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-016.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-017.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-018.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-019.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-020.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-021.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-022.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-023.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-024.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-025.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-026.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-027.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-028.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-029.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-030.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-031.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-032.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-033.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-034.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-035.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-036.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-037.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-038.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-039.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-040.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-041.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-042.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-043.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-044.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-045.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-046.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-047.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-048.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-049.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-050.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-051.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-052.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-053.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-054.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-055.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-056.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-057.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-058.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-059.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-060.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-061.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-062.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-063.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-064.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-065.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-066.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-067.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-068.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-069.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-070.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-071.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-072.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-073.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-074.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-075.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-076.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-077.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-078.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-079.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-080.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-081.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-082.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-083.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-084.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-085.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-086.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-087.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-088.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-089.jpg" style="width:960px;"><br><br>
+
+
+<img src="{{ site.baseurl }}/assets/images/debM1-090.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-091.jpg" style="width:960px;"><br><br>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-092.jpg" style="width:960px;"><br><br>
 
