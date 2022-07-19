@@ -1,3 +1,4 @@
+# REV05: Wed 20 Jul 2022 00:00
 # REV04: Fri 15 Jul 2022 06:00
 # REV03: Thu 14 Jul 2022 07:00
 # REV02: Thu 02 Jun 2022 06:00
@@ -6,7 +7,7 @@
 
 SITEURL="doit.vlsm.org"
 
-ALL: 004.md 005.md 006.md 007.md 008.md .siteHack
+ALL: 004.md 005.md 006.md 007.md 008.md 009.md .siteHack
 
 004.md: 004.pmd _config.yml Gemfile _layouts/default.html Makefile \
         _includes/navbar.html \
@@ -27,6 +28,9 @@ ALL: 004.md 005.md 006.md 007.md 008.md .siteHack
 
 008.md: 008.pmd assets/configs/config-linux-kernel.txt
 	python assets/scripts/includeScript.py < 008.pmd > 008.md
+
+009.md: 009.pmd
+	python assets/scripts/includeScript.py < 009.pmd > 009.md
 
 .siteHack: _site/sitemap.xml
 	@bash  .siteHack $(SITEURL)
