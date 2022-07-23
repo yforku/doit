@@ -82,20 +82,16 @@ make distclean; make mrproper; make clean;
 <hr>
 <br>
 
-<br id="idx06">
-## OPTION 1: A ".config" file from scratch
-* Consider making a ".config" file from scratch with:
-
-```
-make x86_64_defconfig
-
-```
 
 <br id="idx06a">
-## Option 2: Reusing ".config" files
-* If copying a **wrong** ".config" file, you might create a massive kernel with huge modules.
-* Consider copying a working ".config" file from the "/boot/" directory.
-* Or reuse the current one with:
+## Option 1: Reusing ".config" files
+* <span style="color:red;font-weight:bold;">If copying a **wrong** ".config" file,
+  you might create a massive kernel with huge modules.</span>
+  * Consider copying a working ".config" file from the "/boot/" directory.
+  * Or, try to [download this ".config" file](assets/configs/config-linux-kernel.txt)
+    * See also [Linux Kernel Config for VirtualBox](008.md).
+  * Or, try to reuse any .config file
+* Run:
 
 ```
 make oldconfig
@@ -103,9 +99,14 @@ make oldconfig
 ```
 
 <br id="idx06b">
-## Option 3: Try this ".config" file
-* [Download Config](assets/configs/config-linux-kernel.txt)
-  * See also [Linux Kernel Config for VirtualBox](008.md).
+## OPTION 2: A ".config" file from scratch
+* If OPTION 1 failed, consider making a ".config" file from scratch with:
+
+```
+make x86_64_defconfig
+
+```
+
 
 <br>
 <hr>
@@ -187,7 +188,10 @@ time make
         * sys     16m59.542s
 
 <br id="idx10">
-## Install (root)
+## Install
+* User: <span style="color:red;font-weight:bold;">root</span>
+  * Use "sudo" if you wish.
+  * Change Directory (cd) to the linux kernel source!
 
 ```
 # USER: ROOT ============
