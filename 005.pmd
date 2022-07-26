@@ -1,5 +1,11 @@
 ---
 title:  "Installing Jekyll On a VirtualBox"
+description:
+   This page is about how to install Jekyll with Rbenv on a VirtualBox Debian Guest.
+   Why Rbenv?  Because This Is How Me Do It!
+   If it works today, there is no warranty if it will still work the day after.
+tagline:
+   Jekyll, VirtualBox
 ---
 
 <hr>

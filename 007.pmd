@@ -1,5 +1,9 @@
 ---
 title:  "How to compile Linux Kernel on Debian VirtualBox Guest"
+description:
+   This page is about how to compile Linux Kernel on Debian VirtualBox Guest.
+tagline:
+   Linux, Kernel, VirtualBox, Debian
 ---
 
 <br id="idx01">

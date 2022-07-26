@@ -1,5 +1,9 @@
 ---
 title:  "Linux/x86 5.18 Kernel Configuration for VirtualBox"
+description:
+   This page is about how to compile Linux Kernel on Debian VirtualBox Guest.
+tagline:
+   Linux, Kernel, VirtualBox, Debian
 ---
 
 <br>

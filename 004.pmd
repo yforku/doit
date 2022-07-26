@@ -1,5 +1,11 @@
 ---
 title:  "A GitHub Page with no Jekyll Theme"
+description:
+   This page is about building a GitHub Page with no Jekyll theme.
+   It is assumed that you know and have a GitHub account,
+   and know how to setup a GitHub Page.
+tagline:
+   GitHub Page, Jekyll
 ---
 
 <hr>
