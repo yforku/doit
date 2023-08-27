@@ -1,0 +1,41 @@
+---
+title:  Installing Debian Packages
+description:
+  Debian Packages List
+tagline: Deb, Packages
+---
+
+[&#x213C;](#idxXXX)<br id="idx00">
+
+## List of Contents
+* [Debian Packages 01](#idx01)
+* [Debian Packages XX: Compile Kernel](#idx02)
+
+[&#x213C;](#idxXXX)<br id="idx01">
+
+## Debian Packages 01
+<br>
+
+```
+{% raw %}
+(> assets/scripts/026-deb01 <)
+{% endraw %}
+```
+
+<br>
+<img src="{{ site.baseurl }}/assets/images/dospA-32.jpg" style="width:960px;">
+<br><br>
+
+[&#x213C;](#idxXXX)<br id="idx02">
+
+## Debian Packages XX: Compile Kernel
+<br>
+
+```
+{% raw %}
+(> assets/scripts/026-deb02 <)
+{% endraw %}
+```
+
+[&#x213C;](#)<br id="idxXXX">
+
