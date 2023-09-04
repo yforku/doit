@@ -1,4 +1,4 @@
-# REV23: Mon 04 Sep 2023 11:00
+# REV23: Mon 04 Sep 2023 17:00
 # REV19: Tue 21 Feb 2023 20:00
 # REV09: Fri 27 Jan 2023 10:00
 # REV03: Thu 14 Jul 2022 07:00
@@ -42,7 +42,7 @@ all: $(MD_FILES) .siteHack
 	python assets/scripts/includeScript.py < 026.pmd > 026.md
 
 027.md: 027.pmd assets/scripts/027-doBASH assets/scripts/027-doDNS assets/scripts/027-doZero \
-        assets/scripts/027-doUPDATE
+        assets/scripts/027-doUPDATE assets/scripts/027-doZero
 	python assets/scripts/includeScript.py < 027.pmd > 027.md
 
 .siteHack: _site/sitemap.xml
