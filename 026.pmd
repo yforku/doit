@@ -8,17 +8,20 @@ tagline: Deb, Packages
 [&#x213C;](#idxXXX)<br id="idx00">
 
 ## List of Contents
-* [Debian Packages 01](#idx01)
-* [Debian Packages XX: Compile Kernel](#idx02)
+* [Debian Packages: Basic](#idx01)
+* [Debian Packages: Compiling Kernel](#idx02)
+* [Debian Packages: OS232](#idx03)
 
-[&#x213C;](#idxXXX)<br id="idx01">
+[&#x213C;](#)<br id="idx01">
 
-## Debian Packages 01
-<br>
+## Debian Packages: Basic
+
+The following basic packages are always required
+(account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
 {% raw %}
-(> assets/scripts/026-deb01 <)
+(> assets/scripts/026-debBasic <)
 {% endraw %}
 ```
 
@@ -26,14 +29,29 @@ tagline: Deb, Packages
 <img src="{{ site.baseurl }}/assets/images/dospA-32.jpg" style="width:960px;">
 <br><br>
 
-[&#x213C;](#idxXXX)<br id="idx02">
+[&#x213C;](#)<br id="idx02">
 
-## Debian Packages XX: Compile Kernel
-<br>
+## Debian Packages: Compiling Kernel
+
+You need these packages for compiling the Linux Kernel
+(account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
 {% raw %}
-(> assets/scripts/026-deb02 <)
+(> assets/scripts/026-debCompile <)
+{% endraw %}
+```
+
+[&#x213C;](#)<br id="idx03">
+
+## Debian Packages: OS232
+
+You need these packages for compiling OS232
+(account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
+
+```
+{% raw %}
+(> assets/scripts/026-debOS232 <)
 {% endraw %}
 ```
 

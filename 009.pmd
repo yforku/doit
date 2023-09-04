@@ -40,6 +40,7 @@ tagline: M1, Apple, Mac, UTM, Install Debian
   * [Configure Locales](#idx035)
   * [Configure Keyboard](#idx036)
   * [Configure Network (e.g. cbkadal)](#idx038)
+  * [Setup Users and Passwords (e.g. cbkadal)](#idx040)
 * [Boot dan Shutdown Test](#idx059)
 
 [&#x213C;](#)<br id="idx000-1">
@@ -437,6 +438,14 @@ Start BOOT Option
 * Domain Name: BLANK
 
 <img src="{{ site.baseurl }}/assets/images/debM1-039.jpg" style="width:960px;"><br><br>
+
+[&#x213C;](#)<br id="idx039-1">
+
+### Setup Users and Passwords (e.g. cbkadal)
+* ROOT password: cbkadal
+  * Remember: <span style="color:red; font-weight:bold; font-size:larger;">you are not cbkadal!</span>
+
+<img src="{{ site.baseurl }}/assets/images/debM1-039-1.jpg" style="width:960px;"><br><br>
 
 [&#x213C;](#)<br id="idx040">
 

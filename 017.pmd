@@ -44,12 +44,16 @@ tagline: Windows, PowerShell, Terminal
 [&#x213C;](#)<br id="idx02">
 ## Installing Windows Terminal (Recommended Way)
 
+It is recommended to install Windows Terminal from the Microsoft Store.
+
 <br>
 <img src="{{ site.baseurl }}/assets/images/dospA-02.jpg" style="width:960px;">
 <br><br>
 
 [&#x213C;](#)<br id="idx03">
 ## Installing Windows Terminal (Alternate Way)
+
+The alternate way to install Windows Terminal is with winget command line (not recommended).
 
 <br>
 
@@ -73,6 +77,8 @@ tagline: Windows, PowerShell, Terminal
 
 [&#x213C;](#)<br id="idx04">
 ## Setting PowerShell 7
+
+The program is set when first used.
 
 <br>
 <img src="{{ site.baseurl }}/assets/images/dospA-04.jpg" style="width:960px;">

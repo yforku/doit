@@ -35,7 +35,7 @@ ls -F /tmp/file*
 
 [&#x213C;](#)<br id="idx02">
 
-## scp to Windows]
+## scp to Windows
 
 * E.g., user: cbkadal
   * Remember: <span style="color:red; font-weight:bold; font-size:larger;">you are not cbkadal!</span>
