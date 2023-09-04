@@ -1,6 +1,6 @@
 #!/bin/bash
+# REV19: Mon 04 Sep 2023 20:00
 # REV09: Sun 12 Feb 2023 15:00
-# REV08: Fri 12 Aug 2022 21:00
 # REV07: Sun 31 Jul 2022 21:00
 # REV05: Mon 26 Jul 2021 15:00
 # REV02: Wed 17 Feb 2021 15:00
@@ -16,12 +16,10 @@
 
 # See also set-rbenv2.sh
 # PS: Github-Pages uses Jekyll 3.9, which isn’t compatible with Ruby 3.
-# Downgrading to Ruby 2.7 should avoid the problem (chuckhoupt, 2021).
 # Try until it works.
-# RUBY="2.7.7"
-# RUBY="3.0.5"
-# RUBY="3.1.3"
-RUBY="3.2.1"
+# RUBY="3.0.6"
+# RUBY="3.1.4"
+RUBY="3.2.2"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
 echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile"

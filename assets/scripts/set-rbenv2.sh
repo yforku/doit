@@ -16,12 +16,10 @@
 
 # See also set-rbenv1.sh
 # PS: Github-Pages uses Jekyll 3.9, which WAS NOT compatible with Ruby 3.
-# Downgrading to Ruby 2.7 should avoid the problem (chuckhoupt, 2021).
 # Try until it works.
-# RUBY="2.7.7"
-# RUBY="3.0.5"
-# RUBY="3.1.3"
-RUBY="3.2.1"
+# RUBY="3.0.6"
+# RUBY="3.1.4"
+RUBY="3.2.2"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
