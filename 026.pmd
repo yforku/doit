@@ -17,7 +17,7 @@ tagline: Deb, Packages
 
 ## Debian Packages: Basic
 
-The following basic packages are always required
+Basic packages are always required. Copy-paste the following 
 (account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
@@ -34,7 +34,7 @@ The following basic packages are always required
 
 ## Debian Packages: Compiling Kernel
 
-You need these packages for compiling the Linux Kernel
+Packages list for compiling the Linux Kernel. Copy-paste the following 
 (account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
@@ -47,7 +47,7 @@ You need these packages for compiling the Linux Kernel
 
 ## Debian Packages: OS232
 
-You need these packages for OS232
+Packages list for OS232. Copy-paste the following 
 (account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
@@ -65,7 +65,7 @@ You need these packages for OS232
 
 ## Debian Packages: OS232 Additional
 
-You might want to add these packages
+Additional packages list for OS232. Copy-paste the following 
 (account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
 
 ```
