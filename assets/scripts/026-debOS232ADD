@@ -1,4 +1,5 @@
 DEBS="
 ncal
+nvi
 "
 apt update && apt upgrade -y && apt install -y $DEBS

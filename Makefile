@@ -38,7 +38,7 @@ all: $(MD_FILES) .siteHack
 	python assets/scripts/includeScript.py < 011.pmd > 011.md
 
 026.md: 026.pmd assets/scripts/026-debBasic \
-        assets/scripts/026-debCompile assets/scripts/026-debOS232
+        assets/scripts/026-debCompile assets/scripts/026-debOS232 assets/scripts/026-debOS232ADD
 	python assets/scripts/includeScript.py < 026.pmd > 026.md
 
 027.md: 027.pmd assets/scripts/027-doBASH assets/scripts/027-doDNS assets/scripts/027-doZero \
