@@ -1,9 +1,11 @@
 cat > $HOME/.doZERO.sh << EOF
 #!/bin/bash
+# REV03: Sun 10 Sep 2023 15:00
 # REV02: Tue 27 Jun 2023 16:00
 # START: Fri 16 Jun 2023 16:00
 # .doZERO.sh
 
+rm -f /tmp/tmptmp
 df -h /
 dd if=/dev/zero of=/tmp/tmptmp bs=1M
 df -h /
