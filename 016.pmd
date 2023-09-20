@@ -193,8 +193,8 @@ df /dev/vdb2
 * Edit file "/etc/fstab" with your favorite editor, and add:
 
 ```
-/dev/vdb1  /mnt/cbkadal ext4   defaults   1  1
-/dev/vdb2  /mnt/lfs     ext4   defaults   1  1
+/dev/vdb1  /mnt/cbkadal ext4   defaults   0  2
+/dev/vdb2  /mnt/lfs     ext4   defaults   0  2
 
 ```
 
