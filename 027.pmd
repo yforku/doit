@@ -48,7 +48,7 @@ tagline: Linux, scripts
 
 * Clean HardDisk by filling zero
   (account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>)
-* Script name: ".doZero.sh"
+* Script name: ".doZERO.sh"
 
 ```
 {% raw %}
