@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV20: Wed 03 Jan 2024 09:00
+# REV20: Wed 03 Jan 2024 10:00
 # REV19: Mon 04 Sep 2023 20:00
 # REV09: Sun 12 Feb 2023 15:00
 # REV07: Sun 31 Jul 2022 21:00
@@ -22,8 +22,12 @@
 RUBY="3.2.2"
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
-echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile"
-source $HOME/.bash_profile
+echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile or .profile"
+if   [ -f $HOME/.bash_profile ] ; then
+  source $HOME/.bash_profile
+elif [ -f $HOME/.profile ] ; then
+  source $HOME/.profile
+fi
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
 sync
