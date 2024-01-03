@@ -52,7 +52,7 @@ Packages list for OS232. Copy-paste the following
 
 ```
 {% raw %}
-(> assets/scripts/026-debOS232 <)
+(> assets/scripts/026-debOSP <)
 {% endraw %}
 ```
 
@@ -70,7 +70,18 @@ Additional packages list for OS232. Copy-paste the following
 
 ```
 {% raw %}
-(> assets/scripts/026-debOS232ADD <)
+(> assets/scripts/026-debOSPADD <)
+{% endraw %}
+```
+
+[&#x213C;](#)<br id="idx06">
+## Debian Packages: Ruby + Jekyll
+Copy-paste the following 
+(account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>).
+
+```
+{% raw %}
+(> assets/scripts/026-debJEKYLL <)
 {% endraw %}
 ```
 

@@ -39,7 +39,9 @@ libssl-dev
 locales-all
 lynx
 manpages-dev
+ncal
 net-tools
+nvi
 parted
 pkg-config
 python-is-python3
@@ -49,9 +51,9 @@ sysstat
 sysvbanner
 texinfo
 tmux
+tofrodos
 unzip
 util-linux
 vim
-x11-apps
 "
 apt update && apt upgrade -y && apt install -y $DEBS

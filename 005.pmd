@@ -84,24 +84,12 @@ bash clean-system.sh
 [&#x213C;](#idx001)<br id="idx005">
 ## Installing Debian Packages
 
-### assets/scripts/debs.sh
-
-* This script will install the packages
+The package list are:
 
 ```
-(> assets/scripts/debs.sh <)
-```
-* You might "copy and paste" that file or fetch it with:
-
-```
-wget https://doit.vlsm.org/assets/scripts/debs.sh
-
-```
-* You need to have SuperUser (root) privilege ("su -" or "sudo su -") to run the script.
-
-```
-bash debs.sh
-
+{% raw %}
+(> assets/scripts/026-debJEKYLL <)
+{% endraw %}
 ```
 
 [&#x213C;](#idx001)<br id="idxXXX"><br>
