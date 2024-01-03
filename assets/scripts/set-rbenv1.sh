@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV20: Wed 03 Jan 2024 10:00
+# REV20: Wed 03 Jan 2024 12:00
 # REV19: Mon 04 Sep 2023 20:00
 # REV09: Sun 12 Feb 2023 15:00
 # REV07: Sun 31 Jul 2022 21:00
@@ -8,18 +8,19 @@
 # 
 # set-rbenv1.sh installs rubby using rbenlv.
 #                       
-# Copyright (C) 2019-2023 C. BinKadal, Sdn. Bhd.
+# Copyright (C) 2019-2024 C. BinKadal, Sdn. Bhd.
 # This is a free script. It is distributed in the
 # hope that it will be useful, but WITHOUT ANY WARRANTY;
 # without even the implied warranty of MERCHANTABILITY
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
 # See also set-rbenv2.sh
-# PS: Github-Pages uses Jekyll 3.9, which isn’t compatible with Ruby 3.
-# Try until it works.
+# Try one by one "RUBY"; until it works.
 # RUBY="3.0.6"
 # RUBY="3.1.4"
-RUBY="3.2.2"
+# RUBY="3.2.2"
+RUBY="3.3.0"
+
 
 [ -d $HOME/.rbenv ] || git clone https://github.com/rbenv/rbenv.git $HOME/.rbenv
 echo "==== ==== ==== ==== ==== ==== ==== source .bash_profile or .profile"

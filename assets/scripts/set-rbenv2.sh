@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV22: Wed 03 Jan 2024 10:00
+# REV22: Wed 03 Jan 2024 12:00
 # REV19: Sun 31 Jul 2022 22:30
 # REV15: Mon 31 Jan 2022 17:00
 # REV14: Mon 26 Jul 2021 15:00
@@ -8,18 +8,18 @@
 #
 # set-rbenv2.sh installs the bundler.
 #
-# Copyright (C) 2019-2023 C. Binkadal, Sdn. Bhd.
+# Copyright (C) 2019-2024 C. Binkadal, Sdn. Bhd.
 # This is a free script. It is distributed in the
 # hope that it will be useful, but WITHOUT ANY WARRANTY;
 # without even the implied warranty of MERCHANTABILITY
 # or FITNESS FOR A PARTICULAR PURPOSE.
 
 # See also set-rbenv1.sh
-# PS: Github-Pages uses Jekyll 3.9, which WAS NOT compatible with Ruby 3.
-# Try until it works.
+# Try one by one "RUBY"; until it works.
 # RUBY="3.0.6"
 # RUBY="3.1.4"
-RUBY="3.2.2"
+# RUBY="3.2.2"
+RUBY="3.3.0"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
 [ -d $HOME/.rbenv/bin/ ] && eval "$(rbenv init -)"
