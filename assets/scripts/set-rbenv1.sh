@@ -1,9 +1,9 @@
 #!/bin/bash
+# REV20: Wed 03 Jan 2024 09:00
 # REV19: Mon 04 Sep 2023 20:00
 # REV09: Sun 12 Feb 2023 15:00
 # REV07: Sun 31 Jul 2022 21:00
 # REV05: Mon 26 Jul 2021 15:00
-# REV02: Wed 17 Feb 2021 15:00
 # START: Tue 18 Jun 2019 16:00
 # 
 # set-rbenv1.sh installs rubby using rbenlv.

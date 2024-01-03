@@ -90,7 +90,11 @@ wget https://doit.vlsm.org/assets/scripts/set-rbenv1.sh
 * Run the script:
 
 ```
-source $HOME/.bash_profile
+if   [ -f $HOME/.bash_profile ] ; then
+  source $HOME/.bash_profile
+elif [ -f $HOME/.profile ] ; then
+  source $HOME/.profile
+fi
 bash set-rbenv1.sh
 
 ```
@@ -113,7 +117,11 @@ wget https://doit.vlsm.org/assets/scripts/set-rbenv2.sh
   * If .bash_profile does not exists, try .profile
 
 ```
-source $HOME/.bash_profile
+if   [ -f $HOME/.bash_profile ] ; then
+  source $HOME/.bash_profile
+elif [ -f $HOME/.profile ] ; then
+  source $HOME/.profile
+fi
 bash set-rbenv2.sh
 
 ```
