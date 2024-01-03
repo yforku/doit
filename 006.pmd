@@ -134,7 +134,7 @@ bash set-rbenv2.sh
 mkdir -pv $HOME/git/
 cd        $HOME/git/
 rm -rf    $HOME/git/template/
-git clone https://github.com/yforku/template.git
+git clone git@github.com:/yforku/template.git
 cd        template/
 bundle install
 bundle clean --force
