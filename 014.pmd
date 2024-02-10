@@ -126,6 +126,7 @@ tagline: Debian Guest, Installation, VirtualBox
 
 * ROOT password: cbkadal
   * Remember: <span style="color:red; font-weight:bold; font-size:larger;">you are not cbkadal!</span>
+  * Please then change the root password to one that is harder to guess.
 
 <img src="{{ site.baseurl }}/assets/images/debVBOX-052.jpg" style="width:960px;"><br><br>
 
@@ -147,6 +148,7 @@ tagline: Debian Guest, Installation, VirtualBox
 
 * Passwords (e.g. cbkadal)
   * Remember: <span style="color:red; font-weight:bold; font-size:larger;">you are not cbkadal!</span>
+  * Please then change the root password to one that is harder to guess.
 
 <img src="{{ site.baseurl }}/assets/images/debVBOX-055.jpg" style="width:960px;"><br><br>
 
