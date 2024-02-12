@@ -1,4 +1,5 @@
 DEBS="
+zip
 x11-apps
 "
 apt update && apt upgrade -y && apt install -y $DEBS

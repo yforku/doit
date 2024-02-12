@@ -1,5 +1,5 @@
 #!/bin/bash
-# REV22: Wed 03 Jan 2024 12:00
+# REV23: Sun 11 Feb 2024 20:00
 # REV19: Sun 31 Jul 2022 22:30
 # REV15: Mon 31 Jan 2022 17:00
 # REV14: Mon 26 Jul 2021 15:00
@@ -18,7 +18,7 @@
 # Try one by one "RUBY"; until it works.
 # RUBY="3.0.6"
 # RUBY="3.1.4"
-RUBY="3.2.2"
+RUBY="3.2.3"
 # RUBY="3.3.0"
 
 echo "==== ==== ==== ==== ==== ==== ==== rbenv init"
