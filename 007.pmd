@@ -9,7 +9,7 @@ tagline:
 [&#x213C;](#idxXXX)<br id="idx01">
 ## Debian Packages
 
-* See <https://osp4diss.vlsm.org/osp-103.html> for more details.
+* See <https://doit.vlsm.org/026.html#idx02> for more details.
 
 [&#x213C;](#)<br id="idx02">
 ## Download Latest STABLE Kernel
@@ -136,9 +136,6 @@ General setup  --->
   <*> Enable kernel headers through /sys/kernel/kheaders.tar.xz
 Processor type and features  --->
   [ ] EFI runtime service support 
-Device Drivers --->
-  Firmware Drivers --->
-    [*] Disable EFI runtime services support by default 
 File systems  --->
   <*> FUSE (Filesystem in Userspace) support
   <*>   Character device in Userspace support
