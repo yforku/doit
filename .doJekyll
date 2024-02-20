@@ -5,7 +5,8 @@
 # REV01: Wed 16 Jun 2021 14:00
 # START: Wed 03 Feb 2021 16:00
 
-rm -f Gemfile.lock
+rm -fv Gemfile.lock
+gem    install bundler
 bundle install
 bundle clean --force
 bundle install
