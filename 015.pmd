@@ -88,6 +88,9 @@ lsblk
 [&#x213C;](#)<br id="idx014">
 ## Partitioning 32GB
 
+* Account: <span style="color:red; font-weight:bold; font-size:larger;">root</span>
+* Run:
+
 | DEVICE    | TYPE | SIZE     |
 | --------- | ---- | -------- |
 | /dev/sdb1 | ext4 | 10 MB    |
