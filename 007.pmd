@@ -136,6 +136,8 @@ General setup  --->
   <*> Enable kernel headers through /sys/kernel/kheaders.tar.xz
 Processor type and features  --->
   [ ] EFI runtime service support 
+[*] Enable loadable module support  --->
+  [*]   Module versioning support
 File systems  --->
   <*> FUSE (Filesystem in Userspace) support
   <*>   Character device in Userspace support
