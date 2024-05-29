@@ -1,5 +1,4 @@
 DEBS="
-zip
-x11-apps
+fuse
 "
 apt update && apt upgrade -y && apt install -y $DEBS

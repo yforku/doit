@@ -18,7 +18,6 @@ fail2ban
 faketime
 finger
 flex
-fuse
 gawk
 gettext
 git
@@ -55,5 +54,7 @@ tofrodos
 unzip
 util-linux
 vim
+x11-apps
+zip
 "
 apt update && apt upgrade -y && apt install -y $DEBS
