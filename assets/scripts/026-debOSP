@@ -45,7 +45,7 @@ parted
 pkg-config
 python-is-python3
 rsync
-starce
+strace
 sudo
 sysstat
 sysvbanner
