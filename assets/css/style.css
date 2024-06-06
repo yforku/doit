@@ -42,6 +42,10 @@
   color:            hsl(100, 50%, 50%);
 }
 
+.plainclass1 h4 {
+  color:            hsl(100, 50%, 50%);
+}
+
 .container {
   max-width:    70%;
   margin:       0 auto;
@@ -55,6 +59,10 @@
 
 .container a:hover {
   color: #f0f0f0;
+}
+
+.textleft {
+  text-align:   left;
 }
 
 .row {
