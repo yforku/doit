@@ -202,8 +202,7 @@ time make
 
 [&#x213C;](#)<br id="idx10">
 ## Install 
-* <span style="color:red;font-weight:bold;">sudo</span>
-  * Change Directory (cd) to the linux kernel source!  [&#x213C;](#idx05)
+* Use <span style="color:red;font-weight:bold;">sudo</span> [&#x213C;](#idx05)
 
 ```
 # USER: ROOT ============
