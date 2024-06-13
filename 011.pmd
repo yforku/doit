@@ -9,7 +9,7 @@ tagline:
 [&#x213C;](#idxXXX)<br id="idx01">
 ## Debian Packages
 
-* See <https://osp4diss.vlsm.org/osp-103.html> for more details.
+* See <https://doit.vlsm.org/026.html#idx02> for more details.
 
 [&#x213C;](#)<br id="idx02">
 ## Download Latest STABLE Kernel
@@ -18,6 +18,8 @@ tagline:
 
 ```
 # START =============================================================
+
+# VARIABLES
 STABLE=$(wget -O - -o /dev/null https://www.kernel.org/finger_banner | awk '/stable/ {print $NF; exit}')
 MAJOR=$(echo $STABLE | cut -d. -f1)
 URL="https://kernel.org/pub/linux/kernel/v$MAJOR.x"
@@ -28,13 +30,15 @@ KURL="$URL/$KERNEL"
 PURL="$URL/$PGP"
 
 # ===================================================================
-# Wget the latest kernel stable version
+# Download the latest stable kernel tarball
 wget -c $KURL
+
 # ===================================================================
-# Wget the signature
+# Download  the signature
 wget -c $PURL
+
 # ===================================================================
-# Locate Keys
+# Locate and import the PGP keys for verification
 gpg --locate-keys torvalds@kernel.org gregkh@kernel.org
 
 ```
@@ -52,9 +56,10 @@ gpg --sign-key gregkh@kernel.org
 
 ```
 # ===================================================================
-# Uncompress
+# Uncompress the kernel tarball
 unxz $KERNEL
-# Verify
+
+# Verify the tarball signature
 gpg --verify $PGP $TARBALL
 
 ```
@@ -64,8 +69,11 @@ gpg --verify $PGP $TARBALL
 
 ```
 # ===================================================================
+# Extract the kernel tarball
 tar xf $TARBALL
+
 # ===================================================================
+# Enter the kernel source directory
 cd linux-$STABLE
 
 ```
@@ -73,8 +81,8 @@ cd linux-$STABLE
 [&#x213C;](#)<br id="idx05">
 ## Overkilled Cleaning Habit
 
-Once in a while, some Bozo will ask about why not "make distclean," 
-or "make mrproper," or "make clean." 
+Once in a while, someone will ask about why not "make distclean,"
+or "make mrproper," or "make clean."
 Ok, this is the way! [&#x213C;](#idx10)
 
 ```
@@ -128,18 +136,21 @@ make menuconfig
 ```
 General setup  --->
   (-cbkadal-10) Local version - append to kernel release
-  Kernel compression mode (XZ)  --->
   (cbkadal) Default hostname
+  [*]   Support initial ramdisk/ramfs compressed using XZ
   <*> Kernel .config support
   [*] Enable access to .config through /proc/config.gz
   <*> Enable kernel headers through /sys/kernel/kheaders.tar.xz
-Processor type and features  --->
-  [ ] EFI runtime service support 
+Boot options  --->
+  [*] UEFI runtime support
 File systems  --->
   <*> FUSE (Filesystem in Userspace) support
   <*>   Character device in Userspace support
   <*>   Virtio Filesystem 
+  [*]   FUSE passthrough operations support
 Kernel hacking  --->  
+  printk and dmesg option --->
+    [*] Enable dynamic printk() support
   Compile-time checks and compiler options  --->
     [*] Install uapi headers to usr/include
 
@@ -161,25 +172,31 @@ time make
 
 [&#x213C;](#)<br id="idx10">
 ## Install
-* User: <span style="color:red;font-weight:bold;">root</span>
-  * Use "sudo" if you wish.
-  * Change Directory (cd) to the linux kernel source!  [&#x213C;](#idx05)
+* Use <span style="color:red;font-weight:bold;">sudo</span> [&#x213C;](#idx05)
 
 ```
 # USER: ROOT ============
-make modules_install
+# Install the modules
+sudo make modules_install
 
-make install
+# Install the kernel
+sudo make install
 
-make headers_install INSTALL_HDR_PATH=/usr
+# Install the headers
+sudo make headers_install INSTALL_HDR_PATH=/usr
 
 ```
 
 [&#x213C;](#)<br id="idx11">
-## Known Boot Errors
+## Cleaning
+
+You need to keep some parts of the Linux kernel source. You can delete the rest.
 
 ```
-ata1.00: Read log 0x00 page 0x00 failed, Emask 0x1
+make clean
+rm -rf arch/{alpha, arc, [c-x]*} block/ certs/ crypto/ Documentation/
+rm -rf drivers/ fs/ init/ io_uring/ ipc/ kernel/ lib/ lib/
+rm -rf mm/ net/ rust/ samples/ security/ sound/ virt/ usr/
 
 ```
 
