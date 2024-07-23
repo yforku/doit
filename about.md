@@ -4,8 +4,8 @@ permalink: /ABOUT/
 
 # About
 
-**"[This Is](https://youtu.be/jEoM3qan9Gs)"** a collection of
-**"[How Me Do It](https://youtu.be/jEoM3qan9Gs)"** records.
+**"[This Is](https://youtu.be/jEoM3qan9Gs){:target='_blank'}"** a collection of
+**"[How Me Do It](https://youtu.be/jEoM3qan9Gs){:target='_blank'}"** records.
 More precisely, how me <b>DID</b> it in the past.
 When you read this, it might already have been done differently!
 You might ask why "<b>ME,</b>" not "<b>I</b>"?
