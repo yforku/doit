@@ -45,6 +45,7 @@ Try to start (boot) your Virtual Debian Machine for the first time.
 To switch from one console to another, use HOST-KEY+Function. The HOST-KEY varies from system to system.
 * For Linux, the HOST-KEY is  &lt;ALT&gt;
 * Windows, the HOST-KEY is  &lt;CTRL ALT&gt;
+* UTM, the HOST-KEY is &lt;control option&gt;
 
 Example:
 * tty1: HOST-KEY F1
