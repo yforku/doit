@@ -1,5 +1,5 @@
 ---
-title:  "UTM: Debian Guest Installation"
+title:  "Debian Guest Installation"
 description:
   UTM: Debian Guest Installation
 tagline: M1, Apple, Mac, UTM, Install Debian
@@ -38,7 +38,7 @@ The ISO Image has to be re-attached after cloning.
 
 [&#x213C;](#)<br id="idx027B">
 
-* The ISO image was "debian-12.1.0-arm64-netinst.iso" — but this is subject to change.
+* The current ISO image is/was "debian-12.6.0-arm64-netinst.iso" — but this is subject to change.
 * This example will use the (previous version,) "debian-12.1.0-arm64-netinst.iso"
 
 <img src="{{ site.baseurl }}/assets/images/debM1-027B.jpg" style="width:960px;"><br><br>
