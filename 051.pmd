@@ -23,6 +23,7 @@ tagline: M1, Apple, Mac, UTM, Install Debian
   * [Configure The Package Manager](#idx050)
   * [Configuring Popularity Contest](#idx054)
   * [Software Selection](#idx055-1)
+* [Clear The ISO Image](#idx058)
 * [Boot dan Shutdown Test](#idx059)
 
 [&#x213C;](#)<br id="idx027A">
@@ -275,6 +276,10 @@ Start BOOT Option
 
 [&#x213C;](#)<br id="idx058">
 
+## Clear The ISO Image
+
+* Browse: Clear CD/DVD --> Empty
+
 <img src="{{ site.baseurl }}/assets/images/debM1-058.jpg" style="width:960px;"><br><br>
 
 [&#x213C;](#)<br id="idx059">
@@ -292,6 +297,23 @@ Start BOOT Option
 <img src="{{ site.baseurl }}/assets/images/debM1-061.jpg" style="width:960px;"><br><br>
 
 [&#x213C;](#)<br id="idx062">
+
+* Test Network/Update (ROOT)
+  * login:
+  * password:
+
+```
+apt-get update
+apt-get dist-upgrade -y
+
+```
+
+* Poweroff
+
+```
+poweroff
+
+```
 
 <img src="{{ site.baseurl }}/assets/images/debM1-062.jpg" style="width:960px;"><br><br>
 
